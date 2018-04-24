@@ -10,7 +10,7 @@ int main()
     else if(N==0)
       printf("zero");
     else
-      printf("The given input is invalid");
+      printf(" input is invalid");
       
     return 0;
 }
