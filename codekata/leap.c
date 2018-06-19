@@ -6,5 +6,5 @@ scanf("%d",&year);
 if(year%4==0)
 printf("yes");
 else
-printf("not");
+printf("no");
 }
