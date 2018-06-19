@@ -1,24 +1,19 @@
 #include<stdio.h>
-int main()
+void main()
 {
-	char vowel;
-	scanf("%c",&vowel);
-	switch(vowel)
+	char n;
+	scanf("%c",&n);
+	if(isalpha(n))
 	{
-		case 'a':
-		case 'A':
-		case 'e':
-		case 'E':		
-		case 'i':
-		case 'I':
-		case 'o':
-		case 'O':
-		case 'u':
-		case 'U':
-			printf("Vowel");
-			break;
-		default:
-			printf("consonant");
+		if(n=='a'||n=='A'||n=='e'||n=='E'||n=='i'||n=='I'||n=='o'||n=='O'||n=='u'||n=='U')
+		{
+			printf("Vowels");
+		}
+		else
+		{
+			printf("Consonant");
+		}
 	}
-	return 0;
+	else
+		printf("invalid");
 }
