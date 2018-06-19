@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	char n;
 	scanf("%c",&n);
@@ -16,4 +16,5 @@ void main()
 	}
 	else
 		printf("invalid");
+return 1;
 }
