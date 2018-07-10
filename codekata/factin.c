@@ -1,11 +1,19 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main(void)
 {
-    int fact=1,a,i;
-    scanf("%d",&a);
-    for(i=1;i<=a;i++)
-    {
-        fact=fact*i;
-    }
-    printf("%d",fact);
+	int i,num,fact=1;
+	printf("enter the number:");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+
+	{
+
+		fact=fact*i;
+
+	}
+
+	printf("\n%d",fact);
+
+	return 0;
+
 }
