@@ -3,7 +3,6 @@
 int main() 
 {
 	int num,sum=0,a,sq;
-	printf("Enter the number:");
 	scanf("%d",&num);
 	while(num>0)
 	{
